@@ -2,7 +2,6 @@ import './App.css';
 import { useState } from 'react'
 
 function App() {
-  const [buttonStyle, setButtonStyle] = useState('button1')
   const [styleState, setStyleState] = useState(false)
 
   const handleToggle = () => {
